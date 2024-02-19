@@ -2,7 +2,7 @@
 
 Chungpa Lee, Joonhwan Chang, [Jy-yong Sohn](https://scholar.google.co.kr/citations?hl=en&user=Cs75s1MAAAAJ&view_op=list_works&sortby=pubdate)
 
-[Proceedings of the 27th International Conference on Artificial Intelligence and Statistics (AISTATS) 2024, Valencia, Spain](https://aistats.org/aistats2024/). PMLR: Volume 238.
+Proceedings of the 27th International Conference on Artificial Intelligence and Statistics ([AISTATS](https://aistats.org/aistats2024/)) 2024, Valencia, Spain. PMLR: Volume 238.
 
 ## Abstract
 
@@ -14,6 +14,6 @@ Chungpa Lee, Joonhwan Chang, [Jy-yong Sohn](https://scholar.google.co.kr/citatio
   <img src="https://raw.githubusercontent.com/leechungpa/ccem-cl/main/pic.png" width="500">
 </p>
 
-The normalized similarity $s = \frac{1}{2} (1 + \frac{1}{N} \sum_{i=1}^{N} \mathbf{u}_i^\top\mathbf{v}_i)$ of positive pairs measured for the embeddings trained by sigmoid loss $\mathcal{L}^{\text{sig}}$, for various $N$ and $t$ when $d=N$. We train a encoder (two-layer fully-connected ReLU network) which outputs embeddings, rather than directly optimizing the embedding vectors.
+The normalized similarity $s$ of positive pairs measured for the embeddings trained by sigmoid loss $\mathcal{L}^{\text{sig}}$, for various $N$ and $t$ when $d=N$. We train a encoder (two-layer fully-connected ReLU network) which outputs embeddings, rather than directly optimizing the embedding vectors.
 
 The code example is available in [the Jupyter Notebook](https://github.com/leechungpa/ccem-cl/blob/main/example.ipynb).
